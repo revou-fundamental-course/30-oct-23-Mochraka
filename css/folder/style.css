@@ -1,0 +1,35 @@
+
+.form {
+	background-color: lightgray;
+	display: flex;
+	flex-direction: column;
+}
+input:focus {
+	border:solid orange;
+}
+#gender {
+	display: inline;
+}
+#button {
+	display: inline;
+}
+button {
+	border-color: darkblue;
+	color: brown;
+	font-weight: bold;
+	padding: 6px;
+	border-radius: 8px;
+	margin-top: 8px;
+	cursor: pointer;
+}
+button:hover {
+	background-color: orange;
+}
+button:active {
+	transform: translateY(4px);
+}
+.hasil {
+	justify-content: center;
+	font-weight: bold;
+	color: brown;
+}
